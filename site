@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alana’s Excavating Company</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            background-color: #ffffff;
+
+            color: #000000;
+
+            margin: 0;
+
+            padding: 0;
+
+        }
+
+        header, footer {
+
+            background-color: #000000;
+
+            color: #ffffff;
+
+            text-align: center;
+
+            padding: 1em 0;
+
+        }
+
+        nav {
+
+            background-color: #ffcc00;
+
+            text-align: center;
+
+            padding: 1em;
+
+        }
+
+        nav a {
+
+            color: #000000;
+
+            margin: 0 15px;
+
+            text-decoration: none;
+
+            font-weight: bold;
+
+        }
+
+        .container {
+
+            padding: 2em;
+
+        }
+
+        .section-title {
+
+            border-bottom: 2px solid #ffcc00;
+
+            padding-bottom: 0.5em;
+
+            margin-bottom: 1em;
+
+        }
+
+        .gallery img {
+
+            width: 100%;
+
+            max-width: 300px;
+
+            margin: 1em;
+
+        }
+
+        .reviews, .blog-post {
+
+            background-color: #f9f9f9;
+
+            padding: 1em;
+
+            margin-bottom: 1em;
+
+            border-left: 5px solid #ffcc00;
+
+        }
+
+        .form-group {
+
+            margin-bottom: 1em;
+
+        }
+
+        .form-group label {
+
+            display: block;
+
+            margin-bottom: 0.5em;
+
+        }
+
+        .form-group input, .form-group textarea {
+
+            width: 100%;
+
+            padding: 0.5em;
+
+            border: 1px solid #cccccc;
+
+        }
+
+        .form-group button {
+
+            background-color: #000000;
+
+            color: #ffffff;
+
+            padding: 0.5em 2em;
+
+            border: none;
+
+            cursor: pointer;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+
+<header>
+
+    <h1>Alana’s Excavating Company</h1>
+
+</header>
+
+
+
+<nav>
+
+    <a href="#home">Home</a>
+
+    <a href="#about">About Us</a>
+
+    <a href="#services">Services</a>
+
+    <a href="#gallery">Gallery</a>
+
+    <a href="#blog">Blog/News</a>
+
+    <a href="#contact">Contact</a>
+
+    <a href="#reviews">Reviews</a>
+
+    <a href="#quote">Request Quote</a>
+
+</nav>
+
+
+
+<div class="container" id="home">
+
+    <h2 class="section-title">Welcome to Alana’s Excavating Company</h2>
+
+    <p>Your trusted partner for all excavating and construction needs. We provide top-notch services with a commitment to excellence and customer satisfaction.</p>
+
+</div>
+
+
+
+<div class="container" id="about">
+
+    <h2 class="section-title">About Us</h2>
+
+    <p>Alana’s Excavating Company has been serving the community for over 20 years. Our team of experts brings a wealth of knowledge and experience to every project, ensuring high-quality results and customer satisfaction. Meet our dedicated team and learn more about our history and expertise.</p>
+
+</div>
+
+
+
+<div class="container" id="services">
+
+    <h2 class="section-title">Our Services</h2>
+
+    <p>We offer a wide range of excavating and construction services, including:</p>
+
+    <ul>
+
+        <li>Site Preparation</li>
+
+        <li>Foundation Excavation</li>
+
+        <li>Trenching</li>
+
+        <li>Grading</li>
+
+        <li>Demolition</li>
+
+    </ul>
+
+    <p>Choosing Alana’s Excavating Company means benefiting from our years of experience, state-of-the-art equipment, and commitment to safety and efficiency.</p>
+
+</div>
+
+
+
+<div class="container gallery" id="gallery">
+
+    <h2 class="section-title">Gallery</h2>
+
+    <img src="image1.jpg" alt="Excavator">
+
+    <img src="image2.jpg" alt="Construction Site">
+
+    <img src="image3.jpg" alt="Demolition">
+
+</div>
+
+
+
+<div class="container" id="blog">
+
+    <h2 class="section-title">Blog/News</h2>
+
+    <div class="blog-post">
+
+        <h3>Industry Insights</h3>
+
+        <p>Stay updated with the latest trends and insights in the excavating and construction industry. Our blog provides valuable information to help you stay informed.</p>
+
+    </div>
+
+    <div class="blog-post">
+
+        <h3>Project Updates</h3>
+
+        <p>Check out our recent projects and see how we bring our expertise to every job. From start to finish, we ensure quality and customer satisfaction.</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="container" id="contact">
+
+    <h2 class="section-title">Contact Us</h2>
+
+    <p>Phone: (123) 456-7890</p>
+
+    <p>Email: info@alanaexcavating.com</p>
+
+    <p>Address: 123 Construction Lane, Buildville, TX 78901</p>
+
+</div>
+
+
+
+<div class="container" id="reviews">
+
+    <h2 class="section-title">Customer Reviews</h2>
+
+    <div class="reviews">
+
+        <p>"Alana’s Excavating Company did an amazing job on our project. Highly recommend their services!" - John D.</p>
+
+    </div>
+
+    <div class="reviews">
+
+        <p>"Professional, efficient, and top-quality work. Couldn't ask for more!" - Sarah K.</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="container" id="quote">
+
+    <h2 class="section-title">Request a Quote</h2>
+
+    <form>
+
+        <div class="form-group">
+
+            <label for="name">Name:</label>
+
+            <input type="text" id="name" name="name" required>
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="email">Email:</label>
+
+            <input type="email" id="email" name="email" required>
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="project-details">Project Details:</label>
+
+            <textarea id="project-details" name="project-details" rows="5" required></textarea>
+
+        </div>
+
+        <div class="form-group">
+
+            <button type="submit">Submit</button>
+
+        </div>
+
+    </form>
+
+</div>
+
+
+
+<footer>
+
+    <p>&copy; 2024 Alana’s Excavating Company. All rights reserved.</p>
+
+</footer>
+
+
+
+</body>
+
+</html>
+
